@@ -1,0 +1,171 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+   .container{
+       width: 970px; 
+    }
+    .col-lg-12 {
+      width: 100%;
+      text-align: center;
+    }
+    .lg-9{
+      width: 75%;
+    }
+    .lg-3{
+      width: 25%;
+    }
+    .lnaguage {
+      float: left;
+      margin-top: -27px;
+  }
+  
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 750px;
+    }
+    .md-12 {
+      width: 100%;
+      text-align: center;
+    }
+    .md-9{
+      width: 75%;
+    }
+    .md-3{
+      width: 25%;
+    }
+    .lnaguage {
+      float: left;
+      margin-top: -27px;
+    }
+    .lnaguage {
+      display: none;
+    }
+    .menu ul li {
+      margin-right: 10px;
+   }
+   .single-service {
+      padding: 20px;
+   }
+
+   .single-service a.btn {
+      margin-right: 0px;
+   }
+   .mobile {
+       margin-left: 31px;
+   }
+   .item img {
+      display: block;
+      width: 94%;
+   }
+   .advertisers-text {
+      padding-top: 0px;
+      display: block;
+   }
+  
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .container{
+      width: 100%;
+      padding:0 15px;
+    }
+    .sm-4{
+       width: 33.33%;
+    }
+    .sm-8{
+       width: 66.66%;
+    }
+    .header-button > a {
+       padding: 9px 25px;
+       margin-top: 13px;
+   }
+   .logo {
+    margin-top: -50px;
+    position: relative;
+    top: 78px;
+   }
+   .lnaguage {
+    display: none;
+   }
+  
+   .col-4 {
+       width: 100%;
+   }
+   .section-title p {
+      width: 90%;
+   }
+   .col-3 {
+      width: 100%;
+   }
+   .chose-wrapper img {
+      margin-bottom: 3px;
+   }
+   .chose-wrapper {
+      margin-bottom: 40px;
+   }
+   .col-6 {
+      width: 100%;
+      padding: 10px;
+   }
+   .advertisers-text {
+      padding-top: 0;
+   }
+   .mobile { 
+      margin-left: 53px;
+   }
+   .downlode-btn >a {
+      margin-right: 9px;
+      float: left;
+   }
+   .section-title1 {
+    padding: 10px;
+   }
+   .contant-info {
+    padding: 27px;
+    width: 377px;
+}
+
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container{
+        width: 550px;
+    }
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+}
